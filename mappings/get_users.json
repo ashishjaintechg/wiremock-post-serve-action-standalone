@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "GET",
+        "url":"/api/users"
+    },
+    "response":{
+        "status":200,
+        "bodyFileName":"../__files/get_users_response.json" 
+    },
+    "postServeActions" : {
+        "webhook" : {
+        "headers" : {
+            "Content-Type" : "application/json"
+        },
+        "method" : "GET",
+        "url" : "http://localhost:8081/couponapi/coupons/100"
+        }
+    }
+}
