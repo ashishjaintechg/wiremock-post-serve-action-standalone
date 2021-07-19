@@ -1,4 +1,4 @@
-# wmock-post-serve-action-standalone
+# wiremock-post-serve-action-standalone
 These artifacts will run the post serve action using webhooks extensions
 
 java -jar wiremock-jre8-standalone-2.29.1.jar --port 3333 --verbose --extensions org.wiremock.webhooks.Webhooks
